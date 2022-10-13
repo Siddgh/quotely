@@ -2,6 +2,7 @@
 A native android application purely written in Kotlin that acts as a repository of 1000+ quotes from movies books, segregated into different categories, giving users access to browse through them.
 
 Download the App here : https://play.google.com/store/apps/details?id=sid.com.quotely&hl=en_US&gl=US
+
 ---
 
 I had this habit of writing down quotes from Movies, Tvshow's, Anime's, Books which I find interesting. That's how I came up with this Idea.
