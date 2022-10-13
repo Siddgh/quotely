@@ -35,7 +35,7 @@ We'll shuffle the quotes you might like on your home screen itself.
 ### Clean and Easy to Use Design
 All the above and an eye-pleasing visual experience with clean and easy to use material designed user interface.
 
-
+---
 ### Screenshots
 ![Explore Quotes](https://play-lh.googleusercontent.com/lrS06qUFb5T14zZ6Pn4zSW0kSuqkf2fjwVuGw4bSl4um34Lh6FIb8Aq3qEjg8_SeNw=w5120-h2880-rw)
 ![Popular Quotes](https://play-lh.googleusercontent.com/F8Lc28YAql3OdS44siKkZRaIYFssmpt5i4CL-omzXlQSpgeG9kGFgwxhG4Ea6SvYtso=w5120-h2880-rw)
