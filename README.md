@@ -37,7 +37,12 @@ All the above and an eye-pleasing visual experience with clean and easy to use m
 
 
 ### Screenshots
-![Explore Quotes](https://play-lh.googleusercontent.com/lrS06qUFb5T14zZ6Pn4zSW0kSuqkf2fjwVuGw4bSl4um34Lh6FIb8Aq3qEjg8_SeNw=w5120-h2880-rw| width=100)
+![Explore Quotes](https://play-lh.googleusercontent.com/lrS06qUFb5T14zZ6Pn4zSW0kSuqkf2fjwVuGw4bSl4um34Lh6FIb8Aq3qEjg8_SeNw=w5120-h2880-rw)
+![Popular Quotes](https://play-lh.googleusercontent.com/F8Lc28YAql3OdS44siKkZRaIYFssmpt5i4CL-omzXlQSpgeG9kGFgwxhG4Ea6SvYtso=w5120-h2880-rw)
+![Like and Share](https://play-lh.googleusercontent.com/iCh-Fysw4aLttr81WXx061EtAHaz9g3cSmdTWJ5yfm6ptDQSxtMzVNzixuxILwy6dw=w5120-h2880-rw)
+![Favourites](https://play-lh.googleusercontent.com/03W5D-C616CkPBi7YP9tV9olXz2rc1q2SlutcjrdKz8oU7h4tGkdqY3Ot93n2367Mg=w5120-h2880-rw)
+![Notifications](https://play-lh.googleusercontent.com/wJUoNyO8WKR37_9Ex77bkNl_nQ4-JS4NT92BalCfKqDdDsrdSrlo6WQaNZfXgFRD-to=w5120-h2880-rw)
+![Widgets](https://play-lh.googleusercontent.com/dpAYlkgys7w_hPP4wxguF6kvObRgDizRhcwkcjNiuDUH4qzzAwc7UJ55zDr02ZCteg=w5120-h2880-rw)
 
 
 
