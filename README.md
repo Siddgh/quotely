@@ -37,7 +37,7 @@ All the above and an eye-pleasing visual experience with clean and easy to use m
 
 
 ### Screenshots
-![Explore Quotes](https://play-lh.googleusercontent.com/lrS06qUFb5T14zZ6Pn4zSW0kSuqkf2fjwVuGw4bSl4um34Lh6FIb8Aq3qEjg8_SeNw=w5120-h2880-rw|250)
+![Explore Quotes](https://play-lh.googleusercontent.com/lrS06qUFb5T14zZ6Pn4zSW0kSuqkf2fjwVuGw4bSl4um34Lh6FIb8Aq3qEjg8_SeNw=w5120-h2880-rw | width=250)
 
 
 
