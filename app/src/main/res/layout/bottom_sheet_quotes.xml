@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/col_bottom_sheet_quotes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_bottom_sheet_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_bottom_sheet_quotes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_bottom_sheet_text_quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/loading"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorText"
+                android:textSize="24sp"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/ll_movie_info_bottom_sheet_quotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/tv_bottom_sheet_text_quote">
+
+                <ImageView
+                    android:id="@+id/iv_movie_info_bottom_sheet_quotes"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:contentDescription="@string/content_description_icon"
+                    ads:srcCompat="@drawable/ic_movie" />
+
+                <TextView
+                    android:id="@+id/tv_movie_info_bottom_sheet_quotes"
+                    style="@style/QuotesInfoTextViewMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading"
+                    android:textColor="@color/colorTextSecondary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_more_movie_info_bottom_sheet_quotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/ll_movie_info_bottom_sheet_quotes">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_more_movie_info_bottom_sheet_quotes_tags"
+                    style="@style/CircularIndicatorCardView"
+                    android:contentDescription="@string/content_description_icon"
+                    ads:cardBackgroundColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tv_more_movie_info_bottom_sheet_quotes_tags"
+                    style="@style/QuotesInfoTextViewSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loading" />
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_bottom_sheet_quotes_like"
+                style="@style/FABActions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/ll_more_movie_info_bottom_sheet_quotes"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_fav"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_bottom_sheet_quotes_copy"
+                style="@style/FABActions"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                ads:layout_constraintStart_toEndOf="@+id/fab_bottom_sheet_quotes_like"
+                ads:layout_constraintTop_toBottomOf="@+id/ll_more_movie_info_bottom_sheet_quotes"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_copy"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_bottom_sheet_quotes_share"
+                style="@style/FABActions"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                ads:layout_constraintStart_toEndOf="@+id/fab_bottom_sheet_quotes_copy"
+                ads:layout_constraintTop_toBottomOf="@+id/ll_more_movie_info_bottom_sheet_quotes"
+                app:backgroundTint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_share"
+                app:tint="@color/colorText" />
+
+            <TextView
+                android:id="@+id/tv_bottom_sheet_quotes_more_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/more_header"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/fab_bottom_sheet_quotes_copy" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_bottom_sheet_quotes_more"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/tv_bottom_sheet_quotes_more_title" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/banner_bottom_sheet_text_quotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/admob_banner_id"
+                ads:layout_constraintEnd_toEndOf="parent"
+                ads:layout_constraintStart_toStartOf="parent"
+                ads:layout_constraintTop_toBottomOf="@+id/rv_bottom_sheet_quotes_more" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

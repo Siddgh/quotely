@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.Requests">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_activity_requests"
+                style="@style/TextViewActivityHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/requests_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_activity_requests_details"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/requests_desc"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_requests_movies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:backgroundTint="@color/colorMovie"
+                app:layout_constraintEnd_toStartOf="@+id/fab_requests_tvshows"
+                app:layout_constraintStart_toStartOf="@+id/tv_activity_requests_details"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_details"
+                app:srcCompat="@drawable/ic_movie"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_requests_tvshows"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:backgroundTint="@color/colorTvshow"
+                app:layout_constraintEnd_toStartOf="@+id/fab_requests_animes"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/fab_requests_movies"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_details"
+                app:srcCompat="@drawable/ic_tvshow"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_requests_animes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:backgroundTint="@color/colorAnime"
+                app:layout_constraintEnd_toStartOf="@+id/fab_requests_books"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/fab_requests_tvshows"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_details"
+                app:srcCompat="@drawable/ic_anime"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_requests_books"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:backgroundTint="@color/colorBook"
+                app:layout_constraintEnd_toStartOf="@+id/fab_requests_legends"
+                app:layout_constraintStart_toEndOf="@+id/fab_requests_animes"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_details"
+                app:srcCompat="@drawable/ic_books"
+                app:tint="@color/colorText" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_requests_legends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:backgroundTint="@color/colorLegend"
+                app:layout_constraintEnd_toEndOf="@+id/tv_activity_requests_details"
+                app:layout_constraintStart_toEndOf="@+id/fab_requests_books"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_details"
+                app:srcCompat="@drawable/ic_legends"
+                app:tint="@color/colorText" />
+
+
+            <TextView
+                android:id="@+id/tv_requests_name_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/requests_default_title"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fab_requests_legends" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_requests_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/requests_name_example"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_requests_name_title" />
+
+            <TextView
+                android:id="@+id/tv_activity_requests_comment_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/requests_comment_desc"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_requests_name" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_requests_comment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:lineSpacingMultiplier="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_activity_requests_comment_title" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_requests_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/colorMovie"
+        app:srcCompat="@drawable/ic_done"
+        app:tint="@color/colorText" />
+
+
+</FrameLayout>

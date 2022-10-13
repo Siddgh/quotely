@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Quotely</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- Notification Related Details -->
+    <string name="notification_channel_id">notification-channel-id</string>
+    <string name="notification_topic">notification</string>
+
+    <!-- Ads Details -->
+
+    <string name="admob_banner_id">SAMPLE-KEY</string>
+    <string name="admob_interstitial_id">SAMPLE-KEY</string>
+
+    <string name="admob_banner_ad">Banner Ad</string>
+    <string name="admob_interstitial_ad">Interstitial Ad</string>
+
+
+    <string name="quote_highlight_header">QUOTE HIGHLIGHT</string>
+
+    <!-- Navigation View -->
+    <string name="menu_explore">EXPLORE</string>
+    <string name="menu_go_premium">GO AD\'S FREE</string>
+    <string name="menu_premium">Premium</string>
+    <string name="menu_social">SOCIAL</string>
+    <string name="menu_social_instagram">Instagram</string>
+    <string name="menu_social_facebook">Facebook</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="movies_list_header">Movies</string>
+    <string name="tvshows_list_header">Tv Shows</string>
+    <string name="animes_list_header">Animes</string>
+    <string name="books_list_header">Books</string>
+    <string name="legends_list_header">Legends</string>
+    <string name="settings_header">Settings</string>
+
+
+    <!-- App Shortcuts -->
+    <string name="app_shortcut_favourites_title">Favourites</string>
+    <string name="app_shortcut_favourites_id">favourites</string>
+    <string name="app_shortcut_movies_title">Movies</string>
+    <string name="app_shortcut_movies_id">movie-quotes</string>
+    <string name="app_shortcut_tvshows_title">TV Shows</string>
+    <string name="app_shortcut_tvshows_id">tvshow-quotes</string>
+    <string name="app_shortcut_animes_title">Animes</string>
+    <string name="app_shortcut_animes_id">anime-quotes</string>
+    <string name="app_shortcut_books_title">Books</string>
+    <string name="app_shortcut_books_id">book-quotes</string>
+    <string name="app_shortcut_legends_title">Legend</string>
+    <string name="app_shortcut_legends_id">legend-quotes</string>
+
+
+    <!-- Social Media Links -->
+    <string name="instagram_profile">http://instagram.com/_u/quotelytheapp</string>
+    <string name="instagram_package_name">com.instagram.android</string>
+    <string name="instagram_profile_web">http://instagram.com/quotelytheapp</string>
+
+    <string name="facebook_profile_web">https://www.facebook.com/quotelytheapp</string>
+    <string name="facebook_package">com.facebook.katana</string>
+    <string name="facebook_profile">fb://page/234181630418780</string>
+
+
+    <!-- Bottom Sheet -->
+    <string name="more_header">MORE</string>
+
+    <!-- Generic String Values -->
+    <string name="loading">loading&#8230;</string>
+    <string name="content_description_icon">icon</string>
+    <string name="all_quotes">All Quotes</string>
+    <string name="search_hint">Search…</string>
+    <string name="browse_by_categories">Browse By Category</string>
+    <string name="listing_all_quotes">Listing All Quotes</string>
+
+    <!-- Premium -->
+    <string name="preimum_page_text_1">You can always support this app by going premium</string>
+    <string name="preimum_page_text_2">With Quotely Premium, \n you can browse, explore your favourite quotes</string>
+    <string name="preimum_page_text_3">Completely Ad Free</string>
+    <string name="buy_premium">buy premium</string>
+
+    <string name="quotely_premium_in_app">quotely_extensions</string>
+
+    <!-- Settings -->
+    <string-array name="settings_titles">
+        <item>Rate The App</item>
+        <item>Feedback</item>
+        <item>Developer Information</item>
+        <item>Credits</item>
+        <item>Requests</item>
+        <item>Delete Account</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="settings_titles_desc">
+        <item>It would mean the world to me if you could spare sometime to rate the app on the Play Store</item>
+        <item>Feel free to write to me for any suggestions, replies, queries, feedback\'s, ideas</item>
+        <item>Connect on LinkedIn, StackOverFlow, Email</item>
+        <item>Credits to all the developers, designers and Indian Movies without whom this app wouldn\'t exists at all</item>
+        <item>If you didn\'t find quotes from any of your favourites, tell us and we\'ll try to add it for you</item>
+        <item>Erase your Quotely Account Details</item>
+        <item>Version No:</item>
+    </string-array>
+
+    <!-- Developer Details -->
+    <string name="developerinfo_title">Developer</string>
+    <string name="developerinfo_aboutme_header">about me</string>
+    <string name="developerinfo_name">Siddhesh Dighe</string>
+    <string name="developerinfo_desc">
+        - Started out by writing Java Codes in Notepad and Executing them in Terminal.\n\n
+        - Got into Web Designing and Development while completing my Diploma and Bachelors in Computer Science.\n\n
+        - Fell in love with Android Application Development when I got my first Android Phone.\n\n
+        I\'ve worked on\n\n
+        1) Android Application Development\n
+        2) Web Development\n
+        3) Oracle | PLSQL\n
+        4) Unix Scripting\n
+        5) Firebase\n
+        6) Python\n
+        7) Spark\n
+        8) Big Data Techonologies\n
+        and many more
+    </string>
+
+    <!-- Credits -->
+    <string name="credits_libraries_used_desc">
+        1) Firebase UI Auth, Database, Firestore, Storage\n\n
+        2) Firebase Auth, Analytics, Database, Storage, Firestore, Messaging, Crashlytics\n\n
+        3) groupie by lisawray\n\n
+    </string>
+    <string name="design_credits_desc">
+        1) prettycons : About\n\n
+        2) Google : \nCopy, Like, Logout, Profile, Ratings, Search, Settings, Share\n\n
+        3) Freepik : \nCredits, Premium, Developer Information, Email\n\n
+        4) Pixel perfect : \nDownload, Frequently Asked Questions, Movie\n\n
+        5) Those Icons : Feedback\n\n
+        6) Kiranshastry : Delete\n\n
+        7) Instagram\n\n
+        8) LinkedIn\n\n
+        9) StackOverFlow\n\n
+    </string>
+    <string name="credits_movies">
+        Everything and Everyone featured on the app,\n\nThis app would never exist without you\n\nThank you
+    </string>
+    <string name="credits_title">Credits</string>
+    <string name="credits_libraries_used_title">Libraries Used</string>
+    <string name="credits_designs_title">Icons and Logo Design\'s</string>
+    <string name="credits_movies_title">Last but not Least</string>
+    <string name="requests_title">Requests</string>
+    <string name="requests_desc">Tell us which Movie, TV Show, Anime, Book or Legends quotes you\'d want us to add to Quotely</string>
+    <string name="requests_comment_desc">Any specific quote or comment you want to let us know?</string>
+    <string name="requests_name_example">Eg. John Wick</string>
+    <string name="requests_default_title">Name of the movie?</string>
+
+
+</resources>

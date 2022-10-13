@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2D3035</color>
+    <color name="colorLogoBackground">#121212</color>
+
+    <color name="colorMovie">#FF4A1C</color>
+    <color name="colorTvshow">#23CE6B</color>
+    <color name="colorAnime">#0197F6</color>
+    <color name="colorBook">#E8C547</color>
+    <color name="colorLegend">#657ED4</color>
+
+    <color name="colorPremiumYellow">#F6A623</color>
+
+    <color name="colorText">#F0F5F9</color>
+    <color name="colorTextSecondary">#bdbdbd</color>
+
+    <color name="colorBlackTransparency90">#90000000</color>
+
+</resources>
