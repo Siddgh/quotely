@@ -34,3 +34,8 @@ We'll shuffle the quotes you might like on your home screen itself.
 
 ### Clean and Easy to Use Design
 All the above and an eye-pleasing visual experience with clean and easy to use material designed user interface.
+
+
+### Screenshots
+
+
